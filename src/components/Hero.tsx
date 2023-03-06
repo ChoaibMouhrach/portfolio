@@ -8,8 +8,8 @@ const Hero = () => {
         Success consists of going from failure to failure without loss of enthusiasm.
       </h1>
       <p className="max-w-xl lg:max-w-4xl tracking-wide">
-        I am a full-stack developer located in Casablanca, Morocco, and I am currently freelancing with several clients. My expertise lies in the MEAN stack,
-        and I have extensive experience as a full-stack developer.
+        Choaib Mouhrach a full-stack developer located in Casablanca, Morocco, and I am currently freelancing with several clients. My expertise lies in the
+        MEAN stack, and I have extensive experience as a full-stack developer.
       </p>
       <div className="flex lg:flex-row flex-col gap-4">
         <Link className="py-2 px-4 rounded-md text-white bg-primary" href="#contact">

@@ -42,7 +42,7 @@ const Nav = () => {
   }
 
   return (
-    <nav ref={nav} className="bg-light-gray dark:bg-darker-blue transition duration-300 h-16 fixed top-0 w-full z-50">
+    <nav ref={nav} className="bg-light-gray dark:bg-darker-blue h-16 fixed top-0 w-full z-50">
       <div className="container mx-auto h-full px-4 lg:px-0 flex items-center justify-between ">
         <div className="text-xl font-semibold">
           <Link href="">Choaib Mouhrach</Link>
