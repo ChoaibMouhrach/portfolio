@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section id="contact" className="container mx-auto px-4 lg:p-0">
       <Title>CONTACT</Title>
-      <form action="http://example.com/preventedAnyWay" className="flex flex-col gap-4 ">
+      <form action="" className="flex flex-col gap-4 ">
         <label htmlFor="name" className="hidden">
           Emaill
         </label>
