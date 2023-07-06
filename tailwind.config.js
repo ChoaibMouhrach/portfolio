@@ -11,10 +11,11 @@ module.exports = {
         center: true,
         // default breakpoints but with 40px removed
         screens: {
-          sm: '600px',
-          md: '800px',
-          lg: '1000px',
-          xl: '1200px',
+          sm: '400px',
+          md: '700px',
+          lg: '800px',
+          xl: '900px',
+          "2xl": '1200px',
         },
       },
       backgroundImage: {
