@@ -15,10 +15,14 @@ import Footer from '@/components/home/footer';
 import Contact from '@/components/home/contact';
 import Hero from '@/components/home/hero';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <div className={cn("flex flex-col gap-16", inter.className)} >
+      <Head>
+        <title>Choaib Mouhrach | Full Stack Developer</title>
+      </Head>
       <Hero />
 
       <div className="container flex flex-col gap-2 justify-center text-center" >

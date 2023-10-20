@@ -27,7 +27,9 @@ const Nav: React.FC = () => {
     <nav className={cn("h-16 animate duration-200 fixed top-0 left-0 w-full z-50", isScrolled ? "backdrop-blur-2xl border-b" : "")} >
       <div className="h-full container flex items-center justify-between" >
         <div className="text-xl" >
-          ChoaibMouhrach
+          <Link href="/" >
+            ChoaibMouhrach
+          </Link>
         </div>
         <div>
           <Button asChild>
