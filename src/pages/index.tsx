@@ -149,7 +149,7 @@ export default function Home() {
           What Clients Says
         </h1>
         <p>
-          What my previous clients have to say about me"
+          What my previous clients have to say about me
         </p>
       </div>
 
@@ -177,7 +177,7 @@ export default function Home() {
             Nikifor 🇲🇰
           </p>
           <p className="text-muted-foreground" >
-            <Quote className="w-4 h-4 inline text-primary rotate-180 mr-2" /> Choaib is the type of freelancer yo are looking for on this platform. Very professional and has all the required skills. You won't regret working with him! <Quote className="w-4 h-4 inline text-primary ml-2" />
+            <Quote className="w-4 h-4 inline text-primary rotate-180 mr-2" /> Choaib is the type of freelancer yo are looking for on this platform. Very professional and has all the required skills. You won&apos;t regret working with him! <Quote className="w-4 h-4 inline text-primary ml-2" />
           </p>
         </div>
 

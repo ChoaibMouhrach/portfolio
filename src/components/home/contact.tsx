@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
       <div className="container flex justify-center" >
         <Button size="lg" className="text-lg" asChild >
           <Link href={UPWORK_URL} target="_blank" >
-            Let's Talk
+            Let&apos;s Talk
           </Link>
         </Button>
       </div>

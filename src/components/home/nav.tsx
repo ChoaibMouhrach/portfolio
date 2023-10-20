@@ -32,7 +32,7 @@ const Nav: React.FC = () => {
         <div>
           <Button asChild>
             <Link href={UPWORK_URL} target="_blank" >
-              Let's Talk
+              Let&apos;s Talk
             </Link>
           </Button>
         </div>
