@@ -82,46 +82,46 @@ export default function Home() {
               title: "Yerapos",
               description: "Yerapos is a SaaS-based online platform designed to assist shop owners in efficiently managing their businesses, including tasks such as shop operations, staff, inventory, purchases, sales, and more.",
               image: yerapos,
-              demoUrl: "https://yerapos.com"
+              demoUrl: "https://yerapos.com",
+              techs: ["Next.js", "TypeScript", "TailwindCSS", "MySQL", "PlanetScale", "Shadcn"],
             },
             {
               title: "Barber Shop",
               description: "The Barber Shop website is a showcase created for a French client, with the aim of establishing an online presence.",
               image: coif,
-              codeUrl: "https://github.com/ChoaibMouhrach/coiffure"
+              codeUrl: "https://github.com/ChoaibMouhrach/coiffure",
+              techs: ["React.JS", "Javascript", "TailwindCSS"],
             },
             {
               title: "Dicton",
               description: "Dicton is a comprehensive full-stack web application developed for a local company that provides carpets throughout the entire country. This system effectively handles various aspects of the company's operations, including managing staff, suppliers, inventory, procurement, warehouses, sales, and expenses. The application is constructed using Next.js, TypeScript, MySQL, and PlanetScale.",
               image: dicton,
+              techs: ["Next.js", "TypeScript", "Vercel", "TailwindCSS", "MySQL", "PlanetScale", "Shadcn"],
             },
             {
               title: "Mass Calculator",
               description: "The Mass Calculator is a website designed for calculating an individual's body mass. It offers a user-friendly platform for accurately determining body mass based on inputted data, such as weight and height, and provides valuable insights into one's overall health and fitness.",
-              image: massCalc
+              image: massCalc,
+              techs: ["React.JS", "Javascript", "TailwindCSS"],
             },
             {
               title: "Pricing Page",
               description: "A Subscription Pricing Page has been meticulously designed for a Software as a Service (SaaS) offering. This page presents a user-friendly interface that showcases various subscription plans and pricing tiers, along with comprehensive details about the features, benefits, and pricing options for potential customers to make informed decisions.",
-              image: pricing
+              image: pricing,
+              techs: ["Next.JS", "Javascript", "TailwindCSS"],
             },
             {
               title: "You Can Challenge",
               description: "For a secure authentication we are using Magic Links, means every time you want to sign in you are going to be using your email, that means a hack will not be able to access your account because there is no password for that, - enjoy easy authication with magic links and OAuth",
               image: ycanChallenge,
               demoUrl: "https://ycan-challenge.yerapos.com/",
-              codeUrl: "https://github.com/ChoaibMouhrach/coding-challenges"
+              codeUrl: "https://github.com/ChoaibMouhrach/coding-challenges",
+              techs: ["ContentLayer", "Next.JS", "Javascript", "TailwindCSS"],
             }
-          ].map(({ title, description, image, demoUrl, codeUrl }, index) => (
-            <div className="relative h-96 rounded-md overflow-hidden border" key={index}  >
+          ].map(({ title, techs, image, demoUrl, codeUrl }, index) => (
+            <div className="relative min-h-[400px] rounded-md overflow-hidden border" key={index}  >
               <Image src={image} alt="" className="absolute top-0 left-0 w-full h-full object-cover" />
               <div className="absolute top-0 left-0 w-full h-full bg-background/70 flex justify-end flex-col p-4 gap-2"  >
-                <div className="text-xl font-semibold" >
-                  {title}
-                </div>
-                <div>
-                  {description}
-                </div>
                 <div className="flex items-center gap-2" >
                   {
                     demoUrl && (
@@ -142,6 +142,19 @@ export default function Home() {
                     )
                   }
                 </div>
+                <div className="flex items-center gap-4 flex-wrap" >
+                  {
+                    techs.map((tech) => (
+                      <div key={tech} className="bg-background p-2 text-sm rounded-md" >
+                        {tech}
+                      </div>
+                    ))
+                  }
+                </div>
+                <div className="text-xl font-semibold" >
+                  {title}
+                </div>
+
               </div>
             </div>
           ))
