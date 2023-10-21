@@ -21,12 +21,12 @@ const Hero = () => {
             </h1>
           </div>
           <div className="flex justify-center items-center flex-wrap gap-4" >
-            <Button size="lg" className="text-lg" >
+            <Button size="lg" className="text-lg" asChild>
               <Link href={UPWORK_URL} target="_blank" >
                 Let&apos;s Talk
               </Link>
             </Button>
-            <Button size="lg" className="text-lg" >
+            <Button size="lg" className="text-lg" asChild>
               <Link href={GITHUB_URL} target="_blank" >
                 Github
               </Link>
