@@ -21,16 +21,16 @@ export default function Home() {
   return (
     <div className={cn("flex flex-col gap-16", inter.className)} >
       <Head>
-        <title>Choaib Mouhrach | Full Stack Developer</title>
+        <title>YeraCode | Full Stack Developer</title>
       </Head>
       <Hero />
 
       <div className="container flex flex-col gap-2 justify-center text-center" >
         <h1 className="text-2xl" >
-          What I Do
+          What We Do
         </h1>
         <p>
-          I can help you build your next product
+          We can help you build your next product
         </p>
       </div>
 
@@ -39,15 +39,15 @@ export default function Home() {
           [
             {
               title: "Full Stack Developer",
-              description: "I am a proficient full-stack developer equipped to create your next product, leveraging cutting-edge technologies to bring your vision to life. My toolkit includes Next.js, TypeScript, TailwindCSS, MySQL, PlanetScale, and a host of other modern tools and frameworks to ensure a robust and innovative product development process.",
+              description: "We are a proficient full-stack development team equipped to create your next product, leveraging cutting-edge technologies to bring your vision to life. Our toolkit includes Next.js, TypeScript, TailwindCSS, MySQL, PlanetScale, and a host of other modern tools and frameworks to ensure a robust and innovative product development process.",
             },
             {
               title: "Front End Developer",
-              description: "I specialize in front-end development, where I craft engaging and interactive user interfaces that captivate your audience. My expertise includes utilizing a range of modern technologies such as HTML5, CSS3, JavaScript, React.js, and responsive design principles to deliver a seamless and visually appealing user experience.",
+              description: "We specialize in front-end development, where we craft engaging and interactive user interfaces that captivate your audience. Our expertise includes utilizing a range of modern technologies such as HTML5, CSS3, JavaScript, React.js, and responsive design principles to deliver a seamless and visually appealing user experience.",
             },
             {
               title: "Back End Developer",
-              description: "I excel in backend development, focusing on the core functionality and data management of your application. With proficiency in languages like Python, Java, or Node.js, I design and optimize server-side components, ensuring your application operates efficiently, securely, and seamlessly behind the scenes."
+              description: "We excel in backend development, focusing on the core functionality and data management of your application. With proficiency in languages like Python, Java, or Node.js, We design and optimize server-side components, ensuring your application operates efficiently, securely, and seamlessly behind the scenes."
             },
           ].map(({ title, description }, index) => (
             <div key={index} className="relative border " >

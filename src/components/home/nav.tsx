@@ -28,7 +28,7 @@ const Nav: React.FC = () => {
       <div className="h-full container flex items-center justify-between" >
         <div className="text-xl" >
           <Link href="/" >
-            ChoaibMouhrach
+            YeraCode
           </Link>
         </div>
         <div>

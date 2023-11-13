@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="flex flex-col gap-6 items-center text-center max-w-5xl" >
           <div className="flex flex-col gap-2" >
             <p className="text-lg" >
-              I&apos;m a full-stack web developer, currently freelancing full-time on Upwork, I offer money-back guarantee.
+             We are a full-stack web development agency.
             </p>
             <h1 className="text-3xl md:text-4xl lg:text-6xl leading-tight" >
               Success is not final, failure is not fatal: It is the courage to continue that counts.
